@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package abstractfactory;
 
 /**
@@ -11,9 +7,6 @@ package abstractfactory;
  */
 public class AbstractFactoryDemo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         AbstractFactory shapeFactory = FactoryProducer.getFactory("DOUBLEROUNDED");
       //get an object of Shape Rectangle
